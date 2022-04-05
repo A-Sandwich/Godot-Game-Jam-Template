@@ -80,6 +80,9 @@ margin_left = 1282.0
 margin_top = 504.0
 margin_right = 1626.0
 margin_bottom = 640.0
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Play" type="Label" parent="PlayButton"]
 margin_top = -1.0
@@ -87,13 +90,10 @@ margin_right = 321.0
 margin_bottom = 136.0
 custom_fonts/font = SubResource( 1 )
 text = "Play"
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="TextureButton" type="TextureButton" parent="PlayButton/Play"]
-margin_top = 27.0
-margin_right = 213.0
-margin_bottom = 132.0
+margin_top = -4.0
+margin_right = 331.0
+margin_bottom = 141.0
 
 [connection signal="pressed" from="PlayButton/Play/TextureButton" to="." method="_on_TextureButton_pressed"]

@@ -6,4 +6,4 @@ func _ready():
 
 
 func _on_TextureButton_pressed():
-	print("Play")
+	get_tree().change_scene("res://Levels/Level00.tscn")
